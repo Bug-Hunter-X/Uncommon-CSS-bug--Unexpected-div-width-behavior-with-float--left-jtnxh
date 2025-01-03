@@ -1,0 +1,10 @@
+The following CSS code results in unexpected behavior in certain browsers:
+
+```css
+div {
+  width: 50%;
+  float: left;
+}
+```
+
+This simple code snippet, intended to make two divs occupy 50% of the parent container's width side-by-side, may not work as expected due to the default padding or margin of the `div` elements.
