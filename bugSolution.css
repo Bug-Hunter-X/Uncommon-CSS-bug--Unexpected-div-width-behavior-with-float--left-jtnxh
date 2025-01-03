@@ -1,0 +1,12 @@
+To resolve this issue, you can add a reset style to eliminate the default padding and margin.  Here's a corrected version:
+
+```css
+div {
+  width: 50%;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+```
+
+Alternatively, you could use a CSS reset framework or a more robust layout method (e.g., flexbox or grid) for better cross-browser consistency.
